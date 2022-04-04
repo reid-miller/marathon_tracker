@@ -1,0 +1,8 @@
+/node_modules/
+/public/build/
+/functions/*
+
+# Local Netlify folder
+.netlify
+
+.DS_Store

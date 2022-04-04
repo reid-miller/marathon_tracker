@@ -1,5 +1,6 @@
 <script>
 	import { scaleLinear } from 'd3-scale';
+	import Config from './Config.svelte';
 
 	const points = [
 		{ year: "Reid", birthrate: 16.7 },
@@ -67,6 +68,7 @@
 			{/each}
 		</g>
 	</svg>
+	<Config />
 </div>
 
 <style>
